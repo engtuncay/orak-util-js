@@ -1,15 +1,15 @@
 {
   "name": "orak-util-js",
-  "version": "0.0.5",
+  "version": "0.0.11",
   "description": "Orak software utility library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scpublish": "npm publish"
+    "pub": "npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/engtuncay/orak-util-js.git"
+    "url": "https://github.com/engtuncay/orak-util-js.git"
   },
   "keywords": [
     "utility",
