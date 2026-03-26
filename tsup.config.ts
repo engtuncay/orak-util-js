@@ -1,7 +1,7 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-  entry: {"oraksoft-ui":"src/index.ts"},
+  entry: {"orak-util-js":"src/index.ts"},
   clean: true,
   format: ["esm"],
   sourcemap: true,
