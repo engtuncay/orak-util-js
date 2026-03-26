@@ -1,10 +1,5 @@
-<h1>Orak Software Javascript Utility Library</h1>
+<h1>Orak Software Web Ui Js Utility  Library</h1>
 
-# Fikeybean Class
+# tsconfig çıkarıldı
 
-
-# Dependencies 
-
-no sub dependencies
-
-
+"emitDeclarationOnly": true

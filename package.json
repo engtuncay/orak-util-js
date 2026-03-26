@@ -1,24 +1,43 @@
 {
   "name": "orak-util-js",
-  "version": "0.0.11",
-  "description": "Orak software utility library",
-  "main": "index.js",
+  "version": "0.0.30",
+  "description": "OrakSoft User Interface Helpers (For Apps On Browser)",
+  "type": "module",
+  "types": "dist/orak-util-js.ts",
+  "module": "dist/orak-util-js.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pub": "npm publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/engtuncay/orak-util-js.git"
+    "esmbuild": "node build.js",
+    "build":"tsup",
+    "pn-tsc":"pnpm tsc",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "fi-pn-publish": "pnpm publish",
+    "fi-pn-ins": "pnpm install",
+    "fi-pn-link":"pnpm link --global",
+    "fi-pn-link2":"pnpm link --global oraksoft-ui"
   },
   "keywords": [
-    "utility",
-    "javascript"
+    "typescript",
+    "library"
   ],
   "author": "Tuncay Orak",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/engtuncay/orak-util-js/issues"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/engtuncay/oraksoft-ui.git"
   },
-  "homepage": "https://github.com/engtuncay/orak-util-js#readme"
+  "bugs": {
+    "url": "https://github.com/engtuncay/oraksoft-ui.git/issues"
+  },
+  "homepage": "https://github.com/engtuncay/oraksoft-ui#readme",
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.2.2",
+    "vitest": "^2.1.2"
+  }
 }
