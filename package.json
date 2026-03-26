@@ -18,7 +18,7 @@
     "fi-pn-publish": "pnpm publish",
     "fi-pn-ins": "pnpm install",
     "fi-pn-link":"pnpm link --global",
-    "fi-pn-link2":"pnpm link --global oraksoft-ui"
+    "fi-pn-link2":"pnpm link --global orak-util-js"
   },
   "keywords": [
     "typescript",
@@ -28,12 +28,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/engtuncay/oraksoft-ui.git"
+    "url": "https://github.com/engtuncay/orak-util-js.git"
   },
   "bugs": {
-    "url": "https://github.com/engtuncay/oraksoft-ui.git/issues"
+    "url": "https://github.com/engtuncay/orak-util-js.git/issues"
   },
-  "homepage": "https://github.com/engtuncay/oraksoft-ui#readme",
+  "homepage": "https://github.com/engtuncay/orak-util-js#readme",
   "devDependencies": {
     "esbuild": "^0.25.0",
     "tsup": "^8.3.0",
