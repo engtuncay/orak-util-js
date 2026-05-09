@@ -1,7 +1,7 @@
 export { FkbList } from './FiContainers/FkbList';
 export { FiDocExt } from './FiComps/FiDocExt';
 export { Osjs } from './OrakSoftUi';
-export { FiKeybean } from './FiContainers/FiKeybean';
+export { Fkb } from './FiContainers/Fkb';
 export { FimFiCol } from './FiMeta/FimFiCol';
 export { FiNumber } from './core/FiNumber';
 export { FiString } from './core/FiString';

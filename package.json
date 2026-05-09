@@ -1,6 +1,6 @@
 {
   "name": "orak-util-js",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "OrakSoft User Interface Helpers (For Apps On Browser)",
   "type": "module",
   "types": "dist/orak-util-js.ts",
