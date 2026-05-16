@@ -1,3 +1,6 @@
+/**
+ * FiDocExt -> Extend Class For HTMLDocument
+ */
 export class FiDocExt {
 
   /**
