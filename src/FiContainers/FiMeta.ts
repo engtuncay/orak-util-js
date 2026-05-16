@@ -28,7 +28,7 @@ export class FiMeta {
     return FiNumber.orMinusOne(this.ftLnKey);
   }
 
-  public getLnKey(): number {
+  public getLnKey(): number | undefined {
     return this.ftLnKey;
   }
 

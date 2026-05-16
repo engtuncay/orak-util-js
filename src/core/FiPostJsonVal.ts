@@ -1,5 +1,5 @@
 // JSON POST işlemi için util fonksiyonu
-export function fiPostJsonVal(url, data) {
+export function fiPostJsonVal(url:string, data: Record<string, any>): Promise<any> {
 	 return fetch(url, {
 		method: 'POST',
 		headers: {

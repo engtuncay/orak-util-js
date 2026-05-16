@@ -45,10 +45,14 @@ function fiBsModalInjectHtml(modalId = 'logModal', closeOnBackdropClick = true) 
   return modalId + 'Body';
 }
 
-export function fiBsModal(htmlModalContent, modalId = 'logModal', closeOnBackdropClick = true) {
+export function fiBsModal(htmlModalContent:string, modalId = 'logModal', closeOnBackdropClick = true) {
   const modalBodyId = fiBsModalInjectHtml(modalId, closeOnBackdropClick);
   const dialog = document.getElementById(modalId) as HTMLDialogElement;
   
-  document.getElementById(modalBodyId).innerHTML = htmlModalContent;
+  const modalBody = document.getElementById(modalBodyId);
+  if (modalBody) {
+    modalBody.innerHTML = htmlModalContent;
+  }
+  
   dialog.showModal();
 }

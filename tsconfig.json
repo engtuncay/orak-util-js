@@ -7,6 +7,9 @@
     "outDir": "dist",
     "declaration": true,
     "declarationDir": "dist",
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
   }
 }
