@@ -1,5 +1,5 @@
-import { FiNumber } from "../core/FiNumber";
-import { FiString } from "../core/FiString";
+import { FiNumber } from "../FiCores/FiNumber";
+import { FiString } from "../FiCores/FiString";
 
 export class FiMeta {
 

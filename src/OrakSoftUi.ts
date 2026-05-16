@@ -1,5 +1,5 @@
 import { fiBsModal, FkbList, testOrakSoftUi } from "./index";
-import { fiPostJson } from './core/FiPostJson';
+import { fiPostJson } from './FiCores/FiPostJson';
 import { fiPostFormData } from './FiRests/FiPostFormData';
 
 /**
