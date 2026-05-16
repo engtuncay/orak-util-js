@@ -1,7 +1,7 @@
 {
   "name": "orak-util-js",
-  "version": "0.0.31",
-  "description": "OrakSoft User Interface Helpers (For Apps On Browser)",
+  "version": "0.0.32",
+  "description": "OrakSoft Browser Js Library",
   "type": "module",
   "types": "dist/orak-util-js.ts",
   "module": "dist/orak-util-js.js",
@@ -9,16 +9,22 @@
     "dist"
   ],
   "scripts": {
+    "build": "tsup",
     "esmbuild": "node build.js",
-    "build":"tsup",
-    "pn-tsc":"pnpm tsc",
+    "pn-tsc": "pnpm tsc",
     "dev": "tsup --watch",
     "test": "vitest run",
     "test:watch": "vitest",
-    "fi-pn-publish": "pnpm publish",
-    "fi-pn-ins": "pnpm install",
-    "fi-pn-link":"pnpm link --global",
-    "fi-pn-link2":"pnpm link --global orak-util-js"
+    "pn-pub-ouj": "pnpm publish",
+    "pn-ins-ouj": "pnpm install",
+    "pn-link": "pnpm link --global",
+    "pn-link2": "pnpm link --global orak-util-js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.2.2",
+    "vitest": "^2.1.2"
   },
   "keywords": [
     "typescript",
@@ -33,11 +39,5 @@
   "bugs": {
     "url": "https://github.com/engtuncay/orak-util-js.git/issues"
   },
-  "homepage": "https://github.com/engtuncay/orak-util-js#readme",
-  "devDependencies": {
-    "esbuild": "^0.25.0",
-    "tsup": "^8.3.0",
-    "typescript": "^5.2.2",
-    "vitest": "^2.1.2"
-  }
+  "homepage": "https://github.com/engtuncay/orak-util-js#readme"
 }
