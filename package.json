@@ -10,15 +10,15 @@
   ],
   "scripts": {
     "build": "tsup",
-    "esmbuild": "node build.js",
-    "pn-tsc": "pnpm tsc",
+    "np-tsc": "pnpm tsc",
     "dev": "tsup --watch",
     "test": "vitest run",
     "test:watch": "vitest",
-    "pn-pub-ouj": "pnpm publish",
-    "pn-ins-ouj": "pnpm install",
-    "pn-link": "pnpm link --global",
-    "pn-link2": "pnpm link --global orak-util-js"
+    "np-pub-ouj": "pnpm publish",
+    "np-ins-ouj": "pnpm install",
+    "np-link": "pnpm link --global",
+    "np-link2": "pnpm link --global orak-util-js",
+    "esmbuild": "node build.js"
   },
   "devDependencies": {
     "esbuild": "^0.25.0",
