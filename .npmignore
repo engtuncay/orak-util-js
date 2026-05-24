@@ -79,3 +79,6 @@ appveyor.yml
 *.swp
 *.swo
 *~
+
+# Npm Related
+.npmrc

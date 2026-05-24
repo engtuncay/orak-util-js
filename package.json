@@ -1,6 +1,6 @@
 {
   "name": "orak-util-js",
-  "version": "0.0.32",
+  "version": "0.0.33",
   "description": "OrakSoft Browser Js Library",
   "type": "module",
   "types": "dist/orak-util-js.ts",
@@ -14,7 +14,8 @@
     "dev": "tsup --watch",
     "test": "vitest run",
     "test:watch": "vitest",
-    "np-pub-ouj": "pnpm publish",
+    "np-bui-ouj": "tsup",
+    "np-pub-ouj": "npm publish",
     "np-ins-ouj": "pnpm install",
     "np-link": "pnpm link --global",
     "np-link2": "pnpm link --global orak-util-js",
