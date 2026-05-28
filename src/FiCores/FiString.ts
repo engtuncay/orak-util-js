@@ -17,4 +17,8 @@ export class FiString {
     if (value == undefined) return "";
     return value;
   }
+
+   static isEmpty(ftTxKey: string) {
+    return ftTxKey == undefined || ftTxKey == null || ftTxKey.trim() == "";
+  }
 }
