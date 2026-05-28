@@ -5,6 +5,9 @@ import { FiMeta } from "./FiMeta";
 export class Fkb {
   mapData: Map<string, any> = new Map();
 
+  constructor() {
+  }
+
   public fiPut(txKey: string, value: any): Fkb {
     this.mapData.set(txKey, value);
     return this;
@@ -27,7 +30,6 @@ export class Fkb {
     return this.mapData.get(txKey);
   }
 
-
   public getAsObject(): Record<string, any> {
 
     const obj: Record<string, any> = {};
@@ -37,10 +39,6 @@ export class Fkb {
     }
 
     return obj;
-  }
-
-
-  constructor() {
   }
 
   public addFieldByFiMeta(fiMeta: FiMeta, txValue: any): void {
