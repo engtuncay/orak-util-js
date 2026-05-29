@@ -1,6 +1,6 @@
 {
   "name": "orak-util-js",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "description": "OrakSoft Browser Js Library",
   "type": "module",
   "types": "dist/orak-util-js.ts",
