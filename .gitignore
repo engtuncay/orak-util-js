@@ -2,12 +2,13 @@ diff
 .nyc_output
 build
 lib
-node_modules
 test
 src/**.js
 coverage
-*.log
 yarn.lock
+dist
+dist-ssr
+*.local
 
 # Logs
 logs
@@ -18,10 +19,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node Related
 node_modules
-dist
-dist-ssr
-*.local
 
 # Editor directories and files
 .vscode/*
